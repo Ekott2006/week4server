@@ -1,0 +1,12 @@
+POST http://localhost:3000/users/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "Nsikak Ekott",
+    "firstname": "Nsikak", 
+    "lastname": "Ekott",
+    "password": "Hello World"
+}
+
+###
+get http://localhost:3000/files/1711Star_Trek_Discovery_-_S02E04_-_Unknown_b42e93b36290a8ae66f71cde594f6b5d.mp4 http/1.1
